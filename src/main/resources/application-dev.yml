@@ -1,2 +1,3 @@
 
-server.port = 9512
+server:
+  port : 9512

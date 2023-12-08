@@ -1,2 +1,4 @@
 
-server.port = 9512
+spring:
+  profiles:
+    active: dev
