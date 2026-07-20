@@ -10,7 +10,7 @@ public class BatchProcessingApp1Application
 	public static void main(String[] args) 
 	{
 		SpringApplication.run(BatchProcessingApp1Application.class, args);
-		System.out.println("\n First Spring Application using Gradle");
+		System.out.println("\n First SpringBoot Application using Gradle");
 	}
 
 }
