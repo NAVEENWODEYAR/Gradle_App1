@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "Book_Table")
+@Table(name = "Book")
 public class BookEntity 
 {
 	@Id
@@ -23,4 +23,5 @@ public class BookEntity
 	private String bookName;
 	private String bookAuthor;
 	private int bkYearOfPublished;
+ private int bkPrice;
 }
